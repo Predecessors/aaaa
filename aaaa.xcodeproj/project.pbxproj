@@ -15,6 +15,7 @@
 		FE45A641222CC9C3004843F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE45A640222CC9C3004843F7 /* main.m */; };
 		FE45A64B222CC9C3004843F7 /* aaaaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE45A64A222CC9C3004843F7 /* aaaaTests.m */; };
 		FE45A656222CC9C3004843F7 /* aaaaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE45A655222CC9C3004843F7 /* aaaaUITests.m */; };
+		FE45A665222CD683004843F7 /* PushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE45A664222CD683004843F7 /* PushViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		FE45A651222CC9C3004843F7 /* aaaaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = aaaaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE45A655222CC9C3004843F7 /* aaaaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = aaaaUITests.m; sourceTree = "<group>"; };
 		FE45A657222CC9C3004843F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE45A663222CD683004843F7 /* PushViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PushViewController.h; sourceTree = "<group>"; };
+		FE45A664222CD683004843F7 /* PushViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PushViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				FE45A632222CC9C1004843F7 /* AppDelegate.m */,
 				FE45A634222CC9C1004843F7 /* ViewController.h */,
 				FE45A635222CC9C1004843F7 /* ViewController.m */,
+				FE45A663222CD683004843F7 /* PushViewController.h */,
+				FE45A664222CD683004843F7 /* PushViewController.m */,
 				FE45A637222CC9C1004843F7 /* Main.storyboard */,
 				FE45A63A222CC9C3004843F7 /* Assets.xcassets */,
 				FE45A63C222CC9C3004843F7 /* LaunchScreen.storyboard */,
@@ -264,6 +269,7 @@
 			files = (
 				FE45A636222CC9C1004843F7 /* ViewController.m in Sources */,
 				FE45A641222CC9C3004843F7 /* main.m in Sources */,
+				FE45A665222CD683004843F7 /* PushViewController.m in Sources */,
 				FE45A633222CC9C1004843F7 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
